@@ -45,7 +45,7 @@
   margin: 30px 0;
   width: 50%;
 }
-.content a{
+.content a {
   width: 100%;
 }
 .left-column .content {
@@ -65,7 +65,6 @@ button {
 }
 
 input {
-  
   border-radius: 4px;
   outline: none;
   width: 100%;
@@ -138,7 +137,7 @@ textarea::placeholder {
 .content img {
   width: 60%;
 }
-.content button{
+.content button {
   width: 105%;
 }
 .corner {
@@ -168,11 +167,11 @@ textarea::placeholder {
   height: 31px;
 }
 .img {
-  width:283px ;
+  width: 283px;
   height: 17px;
   max-height: 2rem;
 }
-.footer_mobile a{
+.footer_mobile a {
   width: 100%;
 }
 
@@ -189,7 +188,8 @@ textarea::placeholder {
     font-family: "Poppins";
   }
 
-  input,textarea{
+  input,
+  textarea {
     width: 70%;
   }
   .bottom-page {
@@ -214,10 +214,10 @@ textarea::placeholder {
   .content {
     width: 100%;
   }
-  .content a{
+  .content a {
     width: 100%;
   }
-  
+
   .img-gdsc {
     margin-top: 20px;
   }

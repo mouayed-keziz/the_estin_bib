@@ -52,7 +52,9 @@ const Navbar = () => {
             <a href="#3CS">3CS</a>
           </span>
           <button className="contribuer">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link">Contribuer</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link">
+              Contribuer
+            </a>
           </button>
         </div>
         <img

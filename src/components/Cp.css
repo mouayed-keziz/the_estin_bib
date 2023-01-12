@@ -1,96 +1,93 @@
-.Cp{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Poppins';
-  margin-top: 60px;
-  
+.TOBEREMOVED {
+  width:0,
 }
 
 
-.semestres_mobile{
+.Cp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+  margin-top: 60px;
+}
+
+.semestres_mobile {
   display: none;
   overflow-x: hidden;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
   margin-top: 50px;
 }
 
-.Cs:last-child{
-padding-bottom: 150px;
+.Cs:last-child {
+  padding-bottom: 150px;
 }
 
-.title_cp{
-
+.title_cp {
   width: 50px;
   position: relative;
- 
+
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   z-index: 1000;
-  background: #4B7BEC;
+  background: #4b7bec;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;    
+  border-radius: 8px;
   padding: 5px 30px 5px 30px;
-  color: #FFFFFF;  
+  color: #ffffff;
   box-sizing: border-box;
-  
 }
 
-.CCP .title_cp:hover{
- background-color: #3e60b1 ;
-
+.CCP .title_cp:hover {
+  background-color: #3e60b1;
 }
 
-.CCS .title_cp:hover{
+.CCS .title_cp:hover {
   background-color: #d37231;
 }
 
-.modules a{
+.modules a {
   color: black;
 }
 
-.semestres{
+.semestres {
   display: flex;
   width: 80%;
   justify-content: space-between;
-  padding-top:  50px;
+  padding-top: 50px;
 }
-.semestre_1,.semestre_2{
+.semestre_1,
+.semestre_2 {
   width: 45%;
 }
-header{
+header {
   z-index: 1;
   position: relative;
-  background-color:#4B7BEC ;
+  background-color: #4b7bec;
   color: white;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.132);
   border-radius: 8px 8px 0px 0px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 19px;
   padding: 15px 0 15px 0;
   font-weight: bold;
-  min-height:30px;
+  min-height: 30px;
   transition-duration: 0.2s;
-  
-
 }
 
-.semestres header:hover{
- background-color: #3e60b1;
+.semestres header:hover {
+  background-color: #3e60b1;
 }
 
-.mobile_semestre:hover{
-  
+.mobile_semestre:hover {
   color: rgb(204, 203, 203);
 
-
-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
-.modules{
+.modules {
   position: relative;
   z-index: 0;
   background-color: white;
@@ -100,207 +97,179 @@ transition-duration: 0.2s;
   overflow: hidden;
   transition: all ease 0.5s;
 }
-.module{
+.module {
   justify-content: space-between;
   height: fit-content;
   align-items: center;
   display: flex;
   width: 100%;
   border-style: solid;
-  border-color: #0000000D;
+  border-color: #0000000d;
   border-width: 0 0 2px 0;
   padding: 10px 0 10px 0;
-  transition: all 0.2s ease ;
+  transition: all 0.2s ease;
 }
-.module_container{
+.module_container {
   padding: 0 20px 0px 20px;
 }
-.img_name{
+.img_name {
   width: 100%;
   display: flex;
   align-items: center;
   padding: 5px;
   overflow-x: hidden;
-  
 }
-.img_name:hover{
+.img_name:hover {
   background-color: #d8dde1;
   cursor: pointer;
   border-radius: 7px;
-     
 }
-.fileImg{
+.fileImg {
   margin-right: 15px;
   height: 30px;
   width: 21px;
-
 }
-.moduleName{
+.moduleName {
   font-weight: 400;
-font-size: 1.3vw;
+  font-size: 1.3vw;
 }
 
-
-header{
+header {
   display: flex;
   justify-content: center;
 }
-.semestres_mobile header img{
+.semestres_mobile header img {
   width: 13px;
-  margin:0 15px 0 15px ;
+  margin: 0 15px 0 15px;
   cursor: pointer;
   color: white;
 }
 
-
-.module_container:last-child .module{
-  border-width:0 ;
+.module_container:last-child .module {
+  border-width: 0;
 }
 
-.semestres_mobile .module_2{
+.semestres_mobile .module_2 {
   position: relative;
   right: -500px;
 }
-.left_icon_active,.left_icon_desactive,.right_icon_active,.right_icon_desactive{
+.left_icon_active,
+.left_icon_desactive,
+.right_icon_active,
+.right_icon_desactive {
   width: 20px;
   height: 30px;
   margin: 0 15px 0 15px;
 }
 
-
-@media screen and (max-width:1150px){
-
-  .fileImg{
-      
-      height: 25px;
-  
+@media screen and (max-width: 1150px) {
+  .fileImg {
+    height: 25px;
   }
- 
 
-  .module{
-     
-      padding: 10px 0 10px 0;
+  .module {
+    padding: 10px 0 10px 0;
   }
-  .moduleName{
-      
-  font-size: 1.5vw;
+  .moduleName {
+    font-size: 1.5vw;
   }
-  .semestres{
-      
-      width: 90%;
-      
+  .semestres {
+    width: 90%;
   }
 }
 
-
-@media screen and (max-width:900px){
-
-  .module_container{
-      padding: 0 10px 0 10px;
+@media screen and (max-width: 900px) {
+  .module_container {
+    padding: 0 10px 0 10px;
   }
-  .moduleName{
-      font-size: 14px;
+  .moduleName {
+    font-size: 14px;
   }
-  .semestre_1,.semestre_2{
-      width: 47%;
-  }
-}
-
-@media screen and (max-width:760px){
-
-  .module_container{
-      padding: 0 7px 0 7px;
-  }
-  .moduleName{
-      font-size: 12px;
-  }
-  .semestre_1,.semestre_2{
-      width: 48%;
-  }
-}
-@media screen and (max-width:680px){
-
-  .fileImg{
-      
-      width: 18px;
-      margin-right: 9px;
-  
-  }
-
-}
-
-@media screen and (max-width:640px) {
-
-    .semestres_mobile{
-      
-      display: block;
-      width: 70%;
-      
-  }
-  .semestres{
-      display: none;
-  }
-
-
-  
-  .semestres_mobile .moduleName{
-      font-size: 18px !important;
+  .semestre_1,
+  .semestre_2 {
+    width: 47%;
   }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 760px) {
+  .module_container {
+    padding: 0 7px 0 7px;
+  }
+  .moduleName {
+    font-size: 12px;
+  }
+  .semestre_1,
+  .semestre_2 {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .fileImg {
+    width: 18px;
+    margin-right: 9px;
+  }
+}
 
+@media screen and (max-width: 640px) {
+  .semestres_mobile {
+    display: block;
+    width: 70%;
+  }
+  .semestres {
+    display: none;
+  }
 
-.semestres_mobile .moduleName{
+  .semestres_mobile .moduleName {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .semestres_mobile .moduleName {
     font-size: 15px !important;
-}
-}
-@media screen and (max-width:480px) {
-
-  .semestres_mobile{
-      width: 90%;
-  }
-  .semestres_mobile .moduleName{
-      font-size: 15px !important;
   }
 }
-@media screen and (max-width:365px) {
-
-  .semestres_mobile{
-      width: 90%;
+@media screen and (max-width: 480px) {
+  .semestres_mobile {
+    width: 90%;
   }
-  .semestres_mobile .moduleName{
-      font-size: 13px !important;
+  .semestres_mobile .moduleName {
+    font-size: 15px !important;
   }
 }
-@media screen and (max-width:365px) {
-
-  .semestres_mobile{
-      width: 92%;
+@media screen and (max-width: 365px) {
+  .semestres_mobile {
+    width: 90%;
   }
-  .semestres_mobile .moduleName{
-      font-size: 12px !important;
+  .semestres_mobile .moduleName {
+    font-size: 13px !important;
   }
-
-
-  .fileImg{
-      width: 17px;
+}
+@media screen and (max-width: 365px) {
+  .semestres_mobile {
+    width: 92%;
   }
-  .semestres_mobile .moduleName{
-      font-size: 12px !important;
-      max-height: 18.5px;
-      overflow-x: scroll;
-      overflow-y: hidden;
-  }
-  .semestres_mobile .modules{
-      padding: 3px 0 5px 3px;
-  }
-  .semestres_mobile .module{
-      padding: 5px 0 5px 0px;
+  .semestres_mobile .moduleName {
+    font-size: 12px !important;
   }
 
-  header{
-      font-size: 18px;
+  .fileImg {
+    width: 17px;
   }
- 
+  .semestres_mobile .moduleName {
+    font-size: 12px !important;
+    max-height: 18.5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .semestres_mobile .modules {
+    padding: 3px 0 5px 3px;
+  }
+  .semestres_mobile .module {
+    padding: 5px 0 5px 0px;
+  }
+
+  header {
+    font-size: 18px;
+  }
 }

@@ -39,7 +39,7 @@
   width: 100%;
   bottom: -30px;
 }
-.intro p{
+.intro p {
   padding: 0 50px 0 50px;
 }
 
@@ -82,7 +82,7 @@
   .intro h1 {
     font-size: 22px;
   }
-  .intro p{
+  .intro p {
     padding: 0 10px 0 10px;
     font-size: 12px;
   }
@@ -124,14 +124,12 @@
 }
 
 @media screen and (max-width: 1200px) and (min-height: 900px) {
-  .intro{
+  .intro {
     height: 40vh;
   }
 }
 @media screen and (max-width: 260px) {
-  
-  .intro p{
+  .intro p {
     font-size: 11px;
-
   }
 }

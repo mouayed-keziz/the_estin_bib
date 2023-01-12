@@ -133,7 +133,6 @@
   color: black;
   transition: all 0.3s ease-in 0s;
   font-family: "Poppins";
- 
 }
 
 .mobile_nav_clicked {
@@ -153,7 +152,6 @@
   color: black;
   transition: all 0.8s ease 0s;
   font-family: "Poppins";
-  
 }
 
 .main_nav span a,

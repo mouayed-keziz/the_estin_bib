@@ -10,10 +10,8 @@ const Footer = () => {
               <div class="content">
                 <p>“Sharing is caring”</p>
 
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link">
-                    <button>
-                    Contribuer
-                   </button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link">
+                  <button>Contribuer</button>
                 </a>
               </div>
               <div class="content">
@@ -24,7 +22,10 @@ const Footer = () => {
                   loading="lazy"
                 />
                 <div class="social-img">
-                  <a href="https://www.linkedin.com/company/gdsc-estin/" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/company/gdsc-estin/"
+                    target="_blank"
+                  >
                     {" "}
                     <img
                       class="linkdin"
@@ -33,7 +34,10 @@ const Footer = () => {
                       loading="lazy"
                     />{" "}
                   </a>
-                  <a href="https://www.instagram.com/gdsc_estin/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/gdsc_estin/"
+                    target="_blank"
+                  >
                     {" "}
                     <img
                       class="insta"
@@ -77,7 +81,9 @@ const Footer = () => {
 
       <div className="footer_mobile">
         <p>"SHARING IS CARING"</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link"><button>Contribuer</button></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link">
+          <button>Contribuer</button>
+        </a>
         <h2>Contact Us</h2>
         <form class="content">
           <input type="text" placeholder="Name" />
@@ -94,7 +100,10 @@ const Footer = () => {
           loading="lazy"
         />
         <div class="social-img">
-          <a href="https://www.linkedin.com/company/gdsc-estin/" target="_blank">
+          <a
+            href="https://www.linkedin.com/company/gdsc-estin/"
+            target="_blank"
+          >
             {" "}
             <img
               class="linkdin"

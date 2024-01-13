@@ -8,7 +8,22 @@ export default function Year({ data, nosem2 }) {
 
 
 
-
+  const myYear = ""
+  if (data.year.year === "1CS") {
+    myYear = "1CS"
+  }
+  if (data.year.year === "2CS") {
+    myYear = "2CS"
+  }
+  if (data.year.year === "3CS") {
+    myYear = "3CS"
+  }
+  if (data.year.year === "4CS") {
+    myYear = "4CS"
+  }
+  if (data.year.year === "") {
+    myYear = "none"
+  }
 
 
 
@@ -37,7 +52,7 @@ export default function Year({ data, nosem2 }) {
                         href={module.link}
                         target="_blank"
                         data-umami-event="Link Clicked"
-                        data-umami-event-to={`${data.year}-${module.module_name}`}
+                        data-umami-event-to={`${myYear}-${module.module_name}`}
                       >
                         <div className="module">
 
@@ -76,7 +91,7 @@ export default function Year({ data, nosem2 }) {
                       <a
                         target="_blank"
                         data-umami-event="Link Clicked"
-                        data-umami-event-to={`${data.year.year}-${module.module_name}`}
+                        data-umami-event-to={`${myYear}-${module.module_name}`}
                         href={module.link} rel="noreferrer">
                         <div className="module">
                           <div className="img_name">

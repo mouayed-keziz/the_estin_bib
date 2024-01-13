@@ -76,7 +76,7 @@ export default function Year({ data, nosem2 }) {
                       <a
                         target="_blank"
                         data-umami-event="Link Clicked"
-                        data-umami-event-to={`${data.year}-${module.module_name}`}
+                        data-umami-event-to={`${data.year.year}-${module.module_name}`}
                         href={module.link} rel="noreferrer">
                         <div className="module">
                           <div className="img_name">

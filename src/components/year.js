@@ -32,9 +32,10 @@ export default function Year({ data, nosem2 }) {
                       className=
                       "module_container"
                     >
-                      <a
-                        href={module.link}
-                        target="_blank"
+                      <button style={{ all: "unset", width: "100%", display: "flex", justifyItems: "start" }}
+                        onClick={() => {
+                          window.open(module.link, "_blank");
+                        }}
                         data-umami-event="Link Clicked"
                         data-umami-event-to={`${data.year.year}-${module.module_name}`}
                       >
@@ -52,7 +53,7 @@ export default function Year({ data, nosem2 }) {
                             </span>
                           </div>
                         </div>
-                      </a>
+                      </button>
 
                     </div>
                   )
@@ -72,11 +73,13 @@ export default function Year({ data, nosem2 }) {
                       key={index}
                       className="module_container"
                     >
-                      <a
-                        target="_blank"
+                      <button style={{ all: "unset", width: "100%", display: "flex", justifyItems: "start" }}
                         data-umami-event="Link Clicked"
                         data-umami-event-to={`${data.year.year}-${module.module_name}`}
-                        href={module.link} rel="noreferrer">
+                        onClick={() => {
+                          window.open(module.link, "_blank");
+                        }}
+                      >
                         <div className="module">
                           <div className="img_name">
                             <img
@@ -91,7 +94,7 @@ export default function Year({ data, nosem2 }) {
                           </div>
 
                         </div>
-                      </a>
+                      </button>
                     </div>
                   )
                 } else {
@@ -148,7 +151,10 @@ export default function Year({ data, nosem2 }) {
                       "module_container"
 
                     >
-                      <a href={module.link} target="_blank">
+                      <button style={{ all: "unset", width: "100%", display: "flex", justifyItems: "start" }}
+                        onClick={() => {
+                          window.open(module.link, "_blank");
+                        }}>
                         <div className="module">
                           <div className="img_name">
                             <img
@@ -163,7 +169,7 @@ export default function Year({ data, nosem2 }) {
                           </div>
 
                         </div>
-                      </a>
+                      </button>
 
                     </div>
                   )
@@ -179,7 +185,10 @@ export default function Year({ data, nosem2 }) {
                       className=
                       "module_container"
                     >
-                      <a href={module.link} target="_blank">
+                      <button style={{ all: "unset", width: "100%", display: "flex", justifyItems: "start" }}
+                        onClick={() => {
+                          window.open(module.link, "_blank");
+                        }}>
                         <div className="module">
                           <div className="img_name">
                             <img
@@ -194,7 +203,7 @@ export default function Year({ data, nosem2 }) {
                           </div>
 
                         </div>
-                      </a>
+                      </button>
 
                     </div>
                   )
